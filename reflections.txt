@@ -1,0 +1,11 @@
+
+Although I began this project without deep expertise in Python, my technical foundation and the resources provided by the AI Academy made the learning curve manageable. 
+The primary challenge involved the extraction of high-quality data from diverse formats, specifically PDF documents and video files. 
+By implementing Whisper for transcription and PyMuPDF for document parsing, I found the extraction phase to be surprisingly efficient
+
+The development process was facilitated by a custom Gemini GEM, allowing for an iterative, step-by-step construction of the RAG pipeline. 
+This modular approach provided a clear conceptual understanding of the retrieval-augmented generation lifecycle. 
+For the implementation, I prioritized a local environment using Ollama (Llama 3) and Hugging Face embeddings. 
+Despite the performance constraints of local inference on a laptop (specifically an Intel Ultra 7 155U with 32GB of RAM) this choice offered a robust understanding of the trade-offs between local privacy and processing speed
+
+Finally, I must say that the code is a POC like solution, with some minimal structure.

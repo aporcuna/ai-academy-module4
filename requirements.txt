@@ -1,0 +1,28 @@
+# --- Core ML Dependencies ---
+torch
+torchvision              # The missing piece
+torchaudio               # Often required by Whisper
+
+# --- PDF and Document Processing ---
+pymupdf                  # High-performance PDF extraction (fitz)
+langchain-community      # Document loaders and community integrations
+
+# --- Audio Transcription ---
+openai-whisper           # Local audio-to-text transcription
+setuptools-rust          # Required for compiling Whisper dependencies
+
+# --- Local Embeddings (Step 3) ---
+sentence-transformers    # Engine for local mathematical vectors
+langchain-huggingface    # LangChain bridge for Hugging Face models
+
+# --- Local LLM Integration (Step 4) ---
+langchain-ollama         # LangChain bridge for Ollama (Llama 3/Mistral)
+
+# --- Vector Database ---
+langchain-chroma         # Dedicated integration for ChromaDB
+chromadb                 # The underlying vector database engine
+
+# --- Orchestration & UI ---
+langchain                # Core RAG framework
+python-dotenv            # Environment variable management
+streamlit                # Framework for the Chatbot UI

@@ -1,0 +1,30 @@
+----
+
+What are the production 'Do's' for RAG?
+
+Based on the provided context, the "Do's" for RAG are:
+
+✅ Start simple, iterate based on metrics ✅ Use metadata filtering (product, language, permissions) ✅ Combine vector + keyword search (hybrid approach) ✅ Monitor retrieval quality (recall@k, precision) ✅ Keep embeddings synchronized with documents ✅ Evaluate with domain-specific questions
+
+These "Do's" are mentioned in the section titled "Do's and don'ts for RAG".
+
+Sources: RAG Intro.pdf.txt, Productized & Enterprise RAG.pdf.txt, Databases for GenAI.pdf.txt, 1 part. RAG Intro.mp4.txt, 1st Part_Productized Enterprise RAG.mp4.txt
+
+----
+
+What is the difference between standard retrieval and the ColPali approach?
+
+According to the provided context, the main difference between standard retrieval and the ColPali approach is that ColPali treats pages as images (No OCR!) and uses a PaliGemma-3B Vision Language Model. This allows for better isolation of semantically relevant information and ignores unnecessary content, unlike standard retrieval methods which may not be able to distinguish between relevant and irrelevant information.
+
+In the ColPali approach, the algorithm looks through all concepts in the book and chooses only the most relevant one, ignoring other concepts that are not related to the question. This allows for more accurate and efficient retrieval of information, especially when dealing with complex queries or multiple sources.
+
+Sources: Productized & Enterprise RAG.pdf.txt, Databases for GenAI.pdf.txt, Architecture & Design Patterns.pdf.txt, 1 part. RAG Intro.mp4.txt, 1st Part_Productized Enterprise RAG.mp4.txt, 2nd Part_Architecture & Design Patterns.mp4.txt, 2 part Databases for GenAI.mp4.txt
+
+
+----
+
+Why is hybrid search better than vector-only search?
+
+According to the provided context, hybrid search is better than vector-only search because it increases accuracy by 10.5% (from 43.8 NDCG@3 to 48.4 NDCG@3) and even more when combined with reranking (+37.2%).
+
+Sources: Productized & Enterprise RAG.pdf.txt, Databases for GenAI.pdf.txt, Architecture & Design Patterns.pdf.txt, 1 part. RAG Intro.mp4.txt, 2 part Databases for GenAI.mp4.txt, 2nd Part_Architecture & Design Patterns.mp4.txt
