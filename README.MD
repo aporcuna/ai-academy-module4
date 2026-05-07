@@ -83,3 +83,6 @@ ChromaDB: For local vector storage.
 Ollama Bridge: To communicate with the Llama 3 model.
 
 Streamlit: For the web interface.
+
+# ChatBot Test
+The file answers.txt includes the 3 questions with the corresponding answers.
